@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/AbhijitChatterjee007/AbhchTestProject
   gitUsername: AbhijitChatterjee007
   gitBranch: main
+services:
+- serviceName: project.abhchtest.integrations:getDate
+  packages:
+  - name: AbhchTestProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.744
