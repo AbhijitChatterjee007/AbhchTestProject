@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: AbhchTestProject
+  gitServerName: AbhchTest
+  gitUrl: https://github.com/AbhijitChatterjee007/AbhchTestProject
+  gitUsername: AbhijitChatterjee007
+  gitBranch: main
